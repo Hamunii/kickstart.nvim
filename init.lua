@@ -103,7 +103,12 @@ vim.opt.number = true
 -- You can also add relative line numbers, to help with jumping.
 --  Experiment for yourself to see if you like it!
 vim.opt.relativenumber = true
+-- Neovim options for C# (or globally)
+vim.opt.tabstop = 4 -- Number of spaces a tab counts for
+vim.opt.softtabstop = 4 -- Number of spaces Neovim uses when editing text
+vim.opt.shiftwidth = 4 -- Indentation width for operations like >> and <<
 vim.opt.expandtab = true
+
 -- Enable mouse mode, can be useful for resizing splits for example!
 vim.opt.mouse = 'a'
 
